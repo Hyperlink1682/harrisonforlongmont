@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{ title or site.title }}</title>
+  <meta name="description" content="{{ description or site.description }}" />
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="wrap header__inner">
+      <a class="brand" href="/">{{ site.shortTitle }}</a>
+      <nav class="nav">
+        <a href="/priorities/">Priorities</a>
+        <a href="/events/">Events</a>
+        <a href="/vote/">Voting</a>
+        <a href="/about/">About</a>
+        <a class="btn btn--ghost" href="{{ site.ctaVolunteerUrl }}">Volunteer</a>
+        <a class="btn" href="{{ site.ctaDonateUrl }}" target="_blank" rel="noopener">Donate</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap content">
+    {{ content | safe }}
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div class="fineprint">
+        Paid for by Harrison Earl for Longmont City Council Ward 1
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
