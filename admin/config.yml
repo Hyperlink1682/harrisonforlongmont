@@ -2,7 +2,7 @@ backend:
   name: github
   repo: hyperlink1682/harrisonforlongmont
   branch: main
-  base_url: https://6995d8f5e71983255ae7cdd4--melodic-sawine-c43124.netlify.app/
+  base_url: https://melodic-sawine-c43124.netlify.app/
   auth_endpoint: auth
 
 media_folder: "src/assets/uploads"
