@@ -1,0 +1,59 @@
+backend:
+  name: github
+  repo: hyperlink1682/harrisonforlongmont
+  branch: main
+
+media_folder: "src/assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Homepage"
+        name: "home"
+        file: "src/index.md"
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "About"
+        name: "about"
+        file: "src/about.md"
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Priorities"
+        name: "priorities"
+        file: "src/priorities.md"
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Events"
+        name: "events"
+        file: "src/events.md"
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Volunteer"
+        name: "volunteer"
+        file: "src/volunteer.md"
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Donate"
+        name: "donate"
+        file: "src/donate.md"
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Voting"
+        name: "vote"
+        file: "src/vote.md"
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Contact"
+        name: "contact"
+        file: "src/contact.md"
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
