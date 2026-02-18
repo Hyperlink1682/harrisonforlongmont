@@ -1,12 +1,13 @@
 backend:
-  name: github
-  repo: hyperlink1682/harrisonforlongmont
+  name: git-gateway
   branch: main
-  base_url: https://melodic-sawine-c43124.netlify.app/
-  auth_endpoint: auth
+
+site_url: https://hyperlink1682.github.io/harrisonforlongmont/
+display_url: https://hyperlink1682.github.io/harrisonforlongmont/
 
 media_folder: "src/assets/uploads"
 public_folder: "/assets/uploads"
+
 
 collections:
   - name: "pages"
